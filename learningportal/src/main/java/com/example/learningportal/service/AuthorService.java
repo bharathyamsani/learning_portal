@@ -6,4 +6,6 @@ import com.example.learningportal.model.Dto.AuthorDto;
 
 public interface AuthorService {
 	List<AuthorDto> getAuthors();
+
+	AuthorDto getAuthor(int id);
 }

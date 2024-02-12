@@ -8,4 +8,6 @@ public interface LearnerService {
 
 	List<LearnerDto> getLearners();
 
+	LearnerDto getLearner(int id);
+
 }
