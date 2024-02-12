@@ -8,7 +8,7 @@ import org.mapstruct.Mapping;
 
 import com.example.learningportal.model.Course;
 import com.example.learningportal.model.User;
-import com.example.learningportal.model.Dto.AuthorDto;
+import com.example.learningportal.model.dto.AuthorDto;
 
 @Mapper(componentModel = "spring")
 public interface AuthorMapper {

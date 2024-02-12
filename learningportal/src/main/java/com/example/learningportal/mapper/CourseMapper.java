@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 import com.example.learningportal.model.Course;
-import com.example.learningportal.model.Dto.CourseDto;
+import com.example.learningportal.model.dto.CourseDto;
 
 @Mapper(componentModel = "spring")
 public interface CourseMapper {

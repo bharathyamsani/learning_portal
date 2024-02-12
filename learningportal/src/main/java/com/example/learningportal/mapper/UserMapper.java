@@ -5,7 +5,7 @@ import java.util.List;
 import org.mapstruct.Mapper;
 
 import com.example.learningportal.model.User;
-import com.example.learningportal.model.Dto.UserDto;
+import com.example.learningportal.model.dto.UserDto;
 
 @Mapper(componentModel = "spring")
 public interface UserMapper {

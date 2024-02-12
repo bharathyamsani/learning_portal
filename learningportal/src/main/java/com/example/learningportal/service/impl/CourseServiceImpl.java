@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.example.learningportal.exception.ResourceNotFoundException;
 import com.example.learningportal.mapper.CourseMapper;
 import com.example.learningportal.model.Course;
-import com.example.learningportal.model.Dto.CourseDto;
+import com.example.learningportal.model.dto.CourseDto;
 import com.example.learningportal.repository.CourseRepository;
 import com.example.learningportal.service.CourseService;
 

@@ -5,7 +5,7 @@ import java.util.List;
 import org.mapstruct.Mapper;
 
 import com.example.learningportal.model.Category;
-import com.example.learningportal.model.Dto.CategoryDto;
+import com.example.learningportal.model.dto.CategoryDto;
 
 @Mapper(componentModel = "spring")
 public interface CategoryMapper {

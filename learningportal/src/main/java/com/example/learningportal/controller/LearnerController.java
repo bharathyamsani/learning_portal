@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.learningportal.model.Dto.LearnerDto;
+import com.example.learningportal.model.dto.LearnerDto;
 import com.example.learningportal.service.LearnerService;
 
 import lombok.extern.slf4j.Slf4j;

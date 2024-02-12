@@ -5,11 +5,11 @@ import java.util.List;
 import com.example.learningportal.model.Category;
 import com.example.learningportal.model.Course;
 import com.example.learningportal.model.User;
-import com.example.learningportal.model.Dto.AuthorDto;
-import com.example.learningportal.model.Dto.CategoryDto;
-import com.example.learningportal.model.Dto.CourseDto;
-import com.example.learningportal.model.Dto.LearnerDto;
-import com.example.learningportal.model.Dto.UserDto;
+import com.example.learningportal.model.dto.AuthorDto;
+import com.example.learningportal.model.dto.CategoryDto;
+import com.example.learningportal.model.dto.CourseDto;
+import com.example.learningportal.model.dto.LearnerDto;
+import com.example.learningportal.model.dto.UserDto;
 
 public interface UserService {
 	UserDto createUser(User u);

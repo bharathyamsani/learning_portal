@@ -11,7 +11,7 @@ import com.example.learningportal.exception.ResourceNotFoundException;
 import com.example.learningportal.mapper.AuthorMapper;
 import com.example.learningportal.model.User;
 import com.example.learningportal.model.UserType;
-import com.example.learningportal.model.Dto.AuthorDto;
+import com.example.learningportal.model.dto.AuthorDto;
 import com.example.learningportal.repository.UserRepository;
 import com.example.learningportal.service.AuthorService;
 

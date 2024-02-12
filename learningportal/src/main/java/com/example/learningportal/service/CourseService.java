@@ -2,7 +2,7 @@ package com.example.learningportal.service;
 
 import java.util.List;
 
-import com.example.learningportal.model.Dto.CourseDto;
+import com.example.learningportal.model.dto.CourseDto;
 
 public interface CourseService {
 

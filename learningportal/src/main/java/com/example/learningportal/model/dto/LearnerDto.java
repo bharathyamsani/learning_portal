@@ -1,4 +1,4 @@
-package com.example.learningportal.model.Dto;
+package com.example.learningportal.model.dto;
 
 import java.util.HashMap;
 
