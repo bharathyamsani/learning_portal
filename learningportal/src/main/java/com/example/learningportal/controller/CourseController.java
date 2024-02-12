@@ -12,7 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.learningportal.model.Dto.CourseDto;
 import com.example.learningportal.service.CourseService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
+@Slf4j
 @RequestMapping("api/learningportal")
 @ResponseStatus(value = HttpStatus.OK)
 public class CourseController {
@@ -21,12 +24,18 @@ public class CourseController {
 
 	@GetMapping("/courses")
 	public List<CourseDto> getCourses() {
-		return courseService.getCourses();
+		log.info("Request for list of categories");
+		List<CourseDto> courses = courseService.getCourses();
+		log.info("Got categories list");
+		return courses;
 	}
 
 	@GetMapping("courses/{id}")
 	public CourseDto getCourse(int id) {
-		return courseService.getCourse(id);
+		log.info("Request course with id:" + id);
+		CourseDto course = courseService.getCourse(id);
+		log.info("Got course with id:" + id);
+		return course;
 	}
 
 }
